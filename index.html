@@ -1,10 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Paginas do curso FullStack</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fhok - A academia online que cabe na sua rotina</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a href="https://github.com/fhoinaski/FullStack_semana_1/blob/main/M1S01/index.html">Exercicio Semana 1</a>
+<header class="header">
+    <div class="logo">FhoK</div>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#prices">Preços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="container-primary">
+    <div class="hero">
+        <div hero-primary><h1 class="title">Treine de onde quiser com Fhok</h1>
+            <p class="subtitle">Treine de casa ou de onde estiver, com os melhores treinadores do mercado.</p></div>
+        <div hero-secundary><p class="text">Fhok é uma plataforma de exercícios online que oferece aulas ao vivo e sob
+            demanda com
+            instrutores de fitness altamente qualificados. Com Fhok, os usuários podem treinar de qualquer lugar, a
+            qualquer hora, utilizando seus dispositivos móveis, laptops ou smart TVs. A plataforma também oferece um
+            acompanhamento personalizado com base nos objetivos de fitness do usuário, e aulas em grupo ao vivo para
+            tornar o exercício mais divertido e social. Fhok é perfeito para quem quer manter uma rotina de exercícios,
+            mas não tem tempo ou disposição para ir a uma academia física.</p></div>
+    </div>
+    <div class="description">
+        <div class="description-content"><img class="hero-image" src="img/exercicios.png"
+                                              alt="Pessoa treinando com dispositivo móvel">
+
+            <form class="form" id="id="myForm"" action="#" method="post">
+                <h2>Experimente Grátis</h2>
+                <input class="input" id="nome" type="text" name="name" placeholder="Nome">
+                <input class="input" id="email" type="email" name="email" placeholder="E-mail">
+            <button class="button" type="submit" onclick="limparFormulario()">Enviar</button>
+
+            </form>
+        </div>
+    </div>
+</section>
+<section class="prices" id="prices">
+    <h2 class="title-prices">Escolha o seu plano</h2>
+    <div class="price">
+        <h3 class="plan">Plano Básico</h3>
+        <p class="description">Acesso a todas as aulas sob demanda</p>
+        <p class="price-value">R$29,90/mês</p>
+        <a class="button" href="#">Assine Agora</a>
+    </div>
+    <div class="price">
+        <h3 class="plan">Plano Completo</h3>
+        <p class="description">Acesso a todas as aulas sob demanda e aulas ao vivo</p>
+        <p class="price-value">R$49,90/mês</p>
+        <a class="button" href="#">Assine Agora</a>
+    </div>
+</section>
+<footer class="footer">
+    <nav class="footer-menu">
+        <ul>
+            <li><a href="#">Termos de Serviço</a></li>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Perguntas Frequentes</a></li>
+        </ul>
+    </nav>
+    <div class="social-media">
+        <span class="iconFace"><ion-icon name="logo-facebook"></ion-icon>
+        <span><ion-icon name="logo-instagram"></ion-icon>
+        <span><ion-icon name="logo-github"></ion-icon>
+    </div>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
