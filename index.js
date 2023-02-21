@@ -9,4 +9,3 @@ document.querySelector('.button').addEventListener('click', function(event) {
     // Limpa o formulário
     document.querySelector('.form').reset();
 });
-
