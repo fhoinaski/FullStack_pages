@@ -17,6 +17,5 @@ document.querySelector('.button').addEventListener('click', function (event) {
 
     console.log(nome,email,sobrenome,idade,cidade)
 
-    // Limpa o formulário
     document.querySelector('.form').reset();
 });
