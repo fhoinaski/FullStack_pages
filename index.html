@@ -39,7 +39,11 @@
             <form class="form" id="myForm" action="#" method="post">
                 <h2>Experimente Grátis</h2>
                 <input class="input" id="nome" type="text" name="name" placeholder="Nome">
+                <input type="text" class="input" id="sobrenome" placeholder="Sobrenome">
+                <input type="number" class="input" id="idade" placeholder="Sua idade">
                 <input class="input" id="email" type="email" name="email" placeholder="E-mail">
+                <input type="text" class="input" id="cidade" placeholder="Sua cidade">
+
             <button class="button" type="submit" onclick="limparFormulario()">Enviar</button>
 
             </form>
@@ -48,17 +52,19 @@
 </section>
 <section class="prices" id="prices">
     <h2 class="title-prices">Escolha o seu plano</h2>
-    <div class="price">
-        <h3 class="plan">Plano Básico</h3>
-        <p class="price-description">Acesso a todas as aulas sob demanda</p>
-        <p class="price-value">R$29,90/mês</p>
-        <a class="button" href="#">Assine Agora</a>
-    </div>
-    <div class="price">
-        <h3 class="plan">Plano Completo</h3>
-        <p class="price-description">Acesso a todas as aulas sob demanda e aulas ao vivo</p>
-        <p class="price-value">R$49,90/mês</p>
-        <a class="button" href="#">Assine Agora</a>
+    <div class="container-prices">
+        <div class="price">
+            <h3 class="plan">Plano Básico</h3>
+            <p class="price-description">Acesso a todas as aulas sob demanda</p>
+            <p class="price-value">R$29,90/mês</p>
+            <a class="button" href="#">Assine Agora</a>
+        </div>
+        <div class="price">
+            <h3 class="plan">Plano Completo</h3>
+            <p class="price-description">Acesso a todas as aulas sob demanda e aulas ao vivo</p>
+            <p class="price-value">R$49,90/mês</p>
+            <a class="button" href="#">Assine Agora</a>
+        </div>
     </div>
 </section>
 <footer class="footer">
